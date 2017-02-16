@@ -21,6 +21,10 @@
           <h2>{{ site.description | default: site.github.project_tagline }}</h2>
         </header>
 
+       <section id="main_content">
+        <img src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" alt="" data-pin-nopin="true">        
+        </section>
+        
         <section id="downloads" class="clearfix">
           {% if site.show_downloads %}
           <a href="{{ site.github.zip_url }}" id="download-zip" class="button"><span>Download .zip</span></a>
@@ -31,9 +35,7 @@
 
         <hr>
 
-        <section id="main_content">
-          {{ content }}
-        </section>
+   
 
         <footer>
         {% if site.github.is_project_page %}
