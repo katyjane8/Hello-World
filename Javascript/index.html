@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test Page</title>
+        <style>
+        .my-class {
+        	color: red;
+        }
+        </style>
+    </head>
+    <body>
+
+    <p>This is my awesome JavaScript code!</p>
+        <script>
+
+        var myRecipe = {
+        	title: "quesadilla", 
+        	servings: 3, 
+        	ingredients: ["tortillias", "chicken", "cheese"]
+        }
+
+        document.write("<h1>" + myRecipe.title + "</h1>"); 
+        document.write("<p>number of servings: " + myRecipe.servings + "</p>"); 
+        document.write("<h2>ingredients: </h2>")
+
+        document.write("<p>") + myRecipe.ingredients + ("</p>")
+		for (var i=0; i < myRecipe.ingredients.length; i++) {
+			document.write("<li>" + myRecipe.ingredients[i] + "</li>");
+
+		}
+
+
+// 	var age = 30;
+// 		if (age >= 35) {
+//     console.log('You can vote AND hold any place in government!');
+// 		} else if (age >= 25) {
+//     console.log('You can vote AND run for the Senate!');
+// 		} else if (age >= 18) {
+//     console.log('You can vote!');
+// 		} else {
+//     console.log('You can\'t vote, but you can still write your representatives.');
+// }
+
+
+		// var bananas = 5;
+		// if (bananas > 0) {
+  // 		alert ('You have some bananas!');
+		// }
+
+    //     function square(num) {
+    //     return num * num;
+    // }
+    // 	console.log(square(4));   // outputs '16'.
+    // 	var squareOfFive = square(5); // will make squareOfFiv
+        
+        // var mycatsage = 10
+
+        // function makecatolder(currentage) {
+        // 	var newage = currentage + 5;
+        // 	return newage;
+        // }
+        // console.log('my cat is a timelord. she is: ',makecatolder(mycatsage)
+        // 	);
+
+
+// var awesomeGroup = 'Girl Develop It'; //Global scope
+// function whatIsAwesome() {
+//     console.log (awesomeGroup + ' is pretty awesome.'); //Will work
+// }
+// whatIsAwesome();
+
+        </script>
+    </body>
+</html>
