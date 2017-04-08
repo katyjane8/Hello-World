@@ -1,1 +1,19 @@
+body {
+  background-color: #800000;
+  text-align: center; 
+  font-family: 'Raleway Dots';
+}
 
+h1 {
+  font-family: 'Raleway Dots';
+  font-size: 300px;
+  text-align: center; 
+}
+
+h2 {
+  font-family: 'Raleway Dots';
+  font-size: 300px;
+}
+p { 
+  font-family: 'Raleway Dots';
+}
