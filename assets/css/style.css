@@ -13,7 +13,9 @@ h1 {
 h2 {
   font-family: 'Raleway Dots';
   font-size: 300px;
+  text-align: center;
 }
 p { 
   font-family: 'Raleway Dots';
+  text-align: center;
 }
